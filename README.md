@@ -1,5 +1,9 @@
 # MyDBUtils 使用方法
-自定义DBUtils 
+自定义DBUtils
+1.导入数据库驱动
+2.你要有数据源
+3.导入MyDBUtils.jar
+4.类似apache的DBUtils的使用方法
 ```java
 public class MyDbutilsDemo {
 	/**
