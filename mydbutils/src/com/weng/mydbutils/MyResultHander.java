@@ -1,6 +1,7 @@
 package com.weng.mydbutils;
 
 import java.sql.ResultSet;
+import java.util.List;
 /**
  * 结果接口
  * @author apple
@@ -8,5 +9,5 @@ import java.sql.ResultSet;
  * @param <T> 返回的类型
  */
 public interface MyResultHander <T> {
-	T hander(ResultSet resultSet);
+	T hander(ResultSet resultSet, List<String> columnNames);
 }
