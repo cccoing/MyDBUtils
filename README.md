@@ -1,5 +1,6 @@
 # MyDBUtils 使用方法
 自定义DBUtils
+0.数据库字段与bean必须保持一致
 1.导入数据库驱动
 2.你要有数据源
 3.导入MyDBUtils.jar
